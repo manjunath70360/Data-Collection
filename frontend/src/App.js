@@ -11,7 +11,7 @@ const App = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:3000/users/create', {
+      const response = await axios.post('https://data-collection-u1e7.onrender.com/users/create', {
         name,
         address,
       });
